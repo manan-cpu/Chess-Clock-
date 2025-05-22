@@ -8,7 +8,7 @@ This is a custom-built chess clock designed for my hardware project. It uses an 
 - **LCD time display**  
 - **Buzzer alert** when a player’s time ends  
 - **LED indicators** for each player  
-- Custom **3D-printed or laser-cut acrylic** case  
+- Custom **laser-cut acrylic** case  
 - Powered by **USB** or **battery**
 
 ---
