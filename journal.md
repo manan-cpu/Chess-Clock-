@@ -53,6 +53,13 @@
 
 ---
 
+## ✍️ Drawing & Design Sketching – 2 hours 
+- Spent time sketching 4 initial design concepts for the chess clock on paper
+- Explored different layouts for button placement, screen position, and overall size
+- Selected the most functional layout and created 1 final detailed drawing to guide CAD modeling
+
+---
+
 ## 💻 Coding – 3 hours  
 - Wrote Arduino code for countdown timer, player switching, and buzzer alert  
 - Synced LED indicators with each player's turn  
