@@ -1,67 +1,96 @@
-# ⏱️ Chess Clock – Journal
+🧾 Chess Clock Project – Engineering Journal
+Total Time Spent: ~17 hours
+Duration: May 1st – May 10th, 2025
+Project Goal: Build a compact, fully-functional chess clock with player indicators, buzzer alerts, and a custom enclosure.
 
-**Total Time Spent So Far:** ~17 hours
+📅 Day 1 – May 1 (Wednesday)
+🧠 Idea & Planning (1.5 hrs)
 
----
+Brainstormed key features: dual-timer, buzzer alert, LED indicators, ergonomic layout.
 
-## 🧠 Idea & Planning – 1.5 hours  
-- Brainstormed the concept of a compact, custom chess clock  
-- Defined key features: two-player timer, buzzer alert, LED indicators, and a custom enclosure  
-- Sketched initial design ideas on paper
+Sketched 3 rough ideas in a notebook.
 
----
+Decided on general dimensions and components (e.g. Arduino Uno, LCD, pushbuttons).
 
-## 📦 Cardboard Prototyping – 1 hour  
-- Made a basic cardboard prototype to get a feel for the clock’s size and layout  
-- Used it to test rough positioning of buttons and screen  
-- Helped decide final dimensions before moving to CAD
+📅 Day 2 – May 2 (Thursday)
+📦 Cardboard Prototyping (1 hr)
 
----
+Created a quick cardboard mock-up based on design sketch.
 
-## 🔌 Component Research & Sourcing – 2 hours  
-- Listed all electronic and mechanical components  
-- Checked which parts I already had (school or home)  
-- Found remaining parts (e.g. LCD, USB cable) on Lazada
+Tested hand placement, screen visibility, and button spacing.
 
----
+Helped finalize approximate enclosure size and layout.
 
-## 🖥️ Enclosure Design with Onshape – 2 hours  
-- Designed a 3D enclosure using **Onshape**  
-- Adjusted dimensions for proper fit of Arduino, screen, buttons, etc.  
-- Created multiple cutouts for ports and components
+📅 Day 3 – May 3 (Friday)
+🔌 Component Research & Sourcing (2 hrs)
 
----
+Made a full component checklist.
 
-## 🧪 Circuit Simulation with TinkerCAD – 1.5 hours  
-- Built a virtual prototype of the full circuit using **TinkerCAD**  
-- Connected LCD, pushbuttons, LEDs, and buzzer to Arduino  
-- Simulated timer logic and tested button interactions virtually
+Verified available parts from home/school (e.g. Arduino, jumper wires, resistors).
 
----
+Ordered missing parts (LCD, USB cable, RGB LEDs) from Lazada.
 
-## 🪚 Laser-Cut Acrylic Prototype – 1 hour  
-- Used the Onshape design to create a **laser-cut acrylic prototype**  
-- Only tested the **fit of the LCD and buttons** (not the full build)  
-- Helped confirm cutout sizes before final assembly
+📅 Day 4 – May 4 (Saturday)
+🖥️ Enclosure Design – Onshape (2 hrs)
 
----
+Modeled the enclosure in Onshape CAD.
 
-## 🔧 Breadboard Circuit Testing – 3 hours  
-- Assembled the full circuit on a breadboard  
-- Connected Arduino Uno to LCD, buttons, LEDs, and buzzer  
-- Confirmed everything worked correctly before moving forward
+Included cutouts for buttons, screen, ports, and ventilation.
 
----
+Adjusted internal dimensions to snugly fit components.
 
-## ✍️ Drawing & Design Sketching – 2 hours 
-- Spent time sketching 4 initial design concepts for the chess clock on paper
-- Explored different layouts for button placement, screen position, and overall size
-- Selected the most functional layout and created 1 final detailed drawing to guide CAD modeling
+📅 Day 5 – May 5 (Sunday)
+🧪 Circuit Simulation – TinkerCAD (1.5 hrs)
 
----
+Built the full circuit in TinkerCAD: LCD, buzzer, buttons, LEDs.
 
-## 💻 Coding – 3 hours  
-- Wrote Arduino code for countdown timer, player switching, and buzzer alert  
-- Synced LED indicators with each player's turn  
-- Got help from one of my teachers to understand timer logic and debounce button inputs  
-- Debugged and refined logic for clean performance
+Simulated button interactions and timer countdown logic.
+
+Identified logic bugs and refined wiring plan.
+
+📅 Day 6 – May 6 (Monday)
+🪚 Laser-Cut Acrylic Prototype (1 hr)
+
+Used CAD model to laser-cut an acrylic prototype panel.
+
+Tested alignment of LCD and button cutouts only (no full assembly).
+
+Confirmed fit and spacing were accurate.
+
+📅 Day 7 – May 7 (Tuesday)
+🔧 Breadboard Circuit Testing (1.5 hrs)
+
+Started assembling the actual circuit on a breadboard.
+
+Connected: Arduino Uno + LCD + 2 pushbuttons + 2 LEDs + 1 buzzer.
+
+Tested component behavior and interactions manually.
+
+📅 Day 8 – May 8 (Wednesday)
+🔧 Breadboard Circuit Testing (continued) (1.5 hrs)
+
+Finalized breadboard wiring.
+
+Verified debounce logic using simple serial prints.
+
+Confirmed LEDs switch correctly between players.
+
+📅 Day 9 – May 9 (Thursday)
+✍️ Drawing & Design Sketching (2 hrs)
+
+Sketched 4 potential layout designs for screen/button placement.
+
+Evaluated comfort, symmetry, and aesthetics.
+
+Chose final layout and drew a detailed top-down & side-view design.
+
+📅 Day 10 – May 10 (Friday)
+💻 Arduino Coding (3 hrs)
+
+Programmed base timer countdown and player switch system.
+
+Synced LED indicators and buzzer alerts with turn transitions.
+
+Teacher helped refine button debouncing and logic smoothing.
+
+Debugged edge cases (e.g. buzzer not firing when time = 0).
